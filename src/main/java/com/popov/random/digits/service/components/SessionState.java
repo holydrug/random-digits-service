@@ -1,4 +1,4 @@
-package com.example.demo.components;
+package com.popov.random.digits.service.components;
 
 import lombok.Getter;
 import org.springframework.stereotype.Component;

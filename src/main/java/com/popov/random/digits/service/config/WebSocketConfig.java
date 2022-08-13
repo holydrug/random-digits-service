@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.popov.random.digits.service.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
@@ -20,8 +20,6 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     public void registerStompEndpoints(final StompEndpointRegistry registry) {
         registry.addEndpoint("/chat");
         registry.addEndpoint("/chat").withSockJS();
-        registry.addEndpoint("/chatwithbots");
-        registry.addEndpoint("/chatwithbots").withSockJS();
     }
 
 }

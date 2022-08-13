@@ -1,9 +1,9 @@
-package com.example.demo.controllers;
+package com.popov.random.digits.service.controllers;
 
-import com.example.demo.components.SessionState;
-import com.example.demo.entity.Message;
-import com.example.demo.entity.OutputMessage;
-import com.example.demo.services.DigitService;
+import com.popov.random.digits.service.components.SessionState;
+import com.popov.random.digits.service.entity.Message;
+import com.popov.random.digits.service.entity.OutputMessage;
+import com.popov.random.digits.service.services.DigitService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.handler.annotation.MessageMapping;

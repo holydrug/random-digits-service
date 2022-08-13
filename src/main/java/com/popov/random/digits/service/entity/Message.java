@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package com.popov.random.digits.service.entity;
 
 import lombok.Getter;
 

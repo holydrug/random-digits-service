@@ -1,4 +1,4 @@
-package com.example.demo.services;
+package com.popov.random.digits.service.services;
 
 import org.springframework.stereotype.Service;
 
