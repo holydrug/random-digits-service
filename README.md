@@ -3,8 +3,8 @@
 ## Table of content ##
 - [Overview](#Overview)
 - [Logic](#Logic)
-  - [chat() method](#chat())
-  - [chatAuto() method](#chatAuto())
+  - [chat method](#chat-method)
+  - [chatAuto method](#chatAuto-method)
   - [Web Socket Config](#Web-Socket-Config)
 - [Building](#Building)
 
@@ -17,7 +17,7 @@
 
 ## Logic ##
 
-### chat() ###
+### chat method ###
 
 > That method is linked with "GENERATE"
 
@@ -25,7 +25,7 @@
     
     After successful connection you will create message based on once() method and return needed digits
 
-### chatAuto() ###
+### chatAuto method ###
 
 > That method is linked with "AUTO"
 
