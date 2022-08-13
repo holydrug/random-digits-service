@@ -48,3 +48,6 @@
     ./mvnw package
     java -jar ./target/random-digits-service-0.0.1-SNAPSHOT.jar
 
+##### 3. Give a try to link below #####
+
+    http://localhost:8080/
