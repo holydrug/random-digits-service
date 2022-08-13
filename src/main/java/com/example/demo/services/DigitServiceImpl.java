@@ -16,14 +16,11 @@ public class DigitServiceImpl implements DigitService {
         int[] array4 = createArray(size);
         int[] array5 = createArray(size);
 
-        String s;
-
-        s = getRandom(array1) + "\n"
+        return getRandom(array1) + "\n"
                 + getRandom(array2) + "\n"
                 + getRandom(array3) + "\n"
                 + getRandom(array4) + "\n"
                 + getRandom(array5);
-        return s;
     }
 
 
