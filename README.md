@@ -33,7 +33,8 @@
     It uses ConcurrentHashMap to get rid of billion possibilities of launch of task 
   
 
-    After connection you will create message based on auto() method and return needed digits automatically
+    After connection
+    You will create message based on auto() method and return needed digits automatically
 
 ### Web Socket Config ###
 
