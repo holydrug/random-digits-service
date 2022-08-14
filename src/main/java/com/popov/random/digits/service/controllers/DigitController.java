@@ -26,19 +26,12 @@ public class DigitController {
 
     @MessageMapping("/chat")
     public void chat(final Message message) {
-        sessionState.getStatusMap().computeIfAbsent(message.getFrom(), (key) -> once(message));
+        task(message);
     }
 
     @MessageMapping("/chatAuto")
     public void chatAuto(final Message message) {
         sessionState.getStatusMap().computeIfAbsent(message.getFrom(), (key) -> auto(message));
-    }
-
-    private ScheduledExecutorService once(final Message message) {
-        ScheduledExecutorService ses = Executors.newScheduledThreadPool(1);
-        Runnable task = () -> task(message);
-        ses.schedule(task, 0,  TimeUnit.SECONDS);
-        return ses;
     }
 
     private ScheduledExecutorService auto(final Message message) {
