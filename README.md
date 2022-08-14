@@ -23,15 +23,18 @@
 
     To get rid of billion possibilities of launch of task I am created it based on ConcurrentHashMap
     
-    After successful connection you will create message based on once() method and return needed digits
+    After connection you will create message based on task() method and return needed digits
 
 ### chatAuto method ###
 
 > That method is linked with "AUTO"
 
-    Same as previous method It uses ConcurrentHashMap to get rid of billion possibilities of launch of task 
+    Same as previous method
+    It uses ConcurrentHashMap to get rid of billion possibilities of launch of task 
+  
 
-    After successful connection you will create message based on auto() method and return needed digits automatically
+    After connection
+    You will create message based on auto() method and return needed digits automatically
 
 ### Web Socket Config ###
 
